@@ -27,9 +27,10 @@ jobs:
     - name: Install DVC
       run: pip install dvc  # If not already in requirements.txt
 
+    
     # Run the DVC pipeline (execute the pipeline using dvc repro)
-    env:
-      DAGSHUB_TOKEN: ${{ secrets.DAGSHUB_TOKEN }}
-
-
+    - name: dvc pipeline
       run: dvc repro  # This will run the pipeline based on dvc.yaml
+      env:
+        DAGSHUB_TOKEN: ${{ secrets.DAGSHUB_TOKEN }}
+  
