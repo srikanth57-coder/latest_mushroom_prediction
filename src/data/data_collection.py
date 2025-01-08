@@ -43,7 +43,7 @@ def save_data(data,filepath):
 #data_path= os.path.join("data","raw")
 
 def main():
-    data_filepath = r"C:\Users\M.Srikanth Reddy\Downloads\mushrooms.csv"
+    data_filepath = './data/mushrooms.csv'
     params_filepath= "params.yaml"
     raw_data_path =  os.path.join("data","raw")
 
