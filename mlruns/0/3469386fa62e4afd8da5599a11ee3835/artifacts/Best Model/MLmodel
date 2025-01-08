@@ -1,0 +1,40 @@
+artifact_path: Best Model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.0
+mlflow_version: 2.19.0
+model_size_bytes: 4377
+model_uuid: b6d237a123dc4f078c6399fcd1e86ccf
+run_id: 3469386fa62e4afd8da5599a11ee3835
+signature:
+  inputs: '[{"type": "double", "name": "cap-shape", "required": true}, {"type": "double",
+    "name": "cap-surface", "required": true}, {"type": "double", "name": "cap-color",
+    "required": true}, {"type": "double", "name": "bruises", "required": true}, {"type":
+    "double", "name": "odor", "required": true}, {"type": "double", "name": "gill-attachment",
+    "required": true}, {"type": "double", "name": "gill-spacing", "required": true},
+    {"type": "double", "name": "gill-size", "required": true}, {"type": "double",
+    "name": "gill-color", "required": true}, {"type": "double", "name": "stalk-shape",
+    "required": true}, {"type": "double", "name": "stalk-root", "required": true},
+    {"type": "double", "name": "stalk-surface-above-ring", "required": true}, {"type":
+    "double", "name": "stalk-surface-below-ring", "required": true}, {"type": "double",
+    "name": "stalk-color-above-ring", "required": true}, {"type": "double", "name":
+    "stalk-color-below-ring", "required": true}, {"type": "double", "name": "veil-type",
+    "required": true}, {"type": "double", "name": "veil-color", "required": true},
+    {"type": "double", "name": "ring-number", "required": true}, {"type": "double",
+    "name": "ring-type", "required": true}, {"type": "double", "name": "spore-print-color",
+    "required": true}, {"type": "double", "name": "population", "required": true},
+    {"type": "double", "name": "habitat", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2025-01-07 05:30:47.971464'

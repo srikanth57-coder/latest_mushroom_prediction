@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/M.Srikanth%20Reddy/latest_mushroom_prediction/mlruns/0/53ae025fb9204b7389115f2faf25fc65/artifacts
+end_time: 1736227614237
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 53ae025fb9204b7389115f2faf25fc65
+run_name: carefree-hound-871
+run_uuid: 53ae025fb9204b7389115f2faf25fc65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736227614177
+status: 4
+tags: []
+user_id: M.Srikanth Reddy

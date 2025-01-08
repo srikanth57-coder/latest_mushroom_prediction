@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/M.Srikanth%20Reddy/latest_mushroom_prediction/mlruns/0/3469386fa62e4afd8da5599a11ee3835/artifacts
+end_time: 1736227858995
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3469386fa62e4afd8da5599a11ee3835
+run_name: dazzling-horse-839
+run_uuid: 3469386fa62e4afd8da5599a11ee3835
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736227846555
+status: 3
+tags: []
+user_id: M.Srikanth Reddy

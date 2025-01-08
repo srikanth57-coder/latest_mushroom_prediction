@@ -1,0 +1,24 @@
+digest: 504f0ab4
+name: dataset
+profile: '{"num_rows": 8124, "num_elements": 186852}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "class", "required": true},
+  {"type": "string", "name": "cap-shape", "required": true}, {"type": "string", "name":
+  "cap-surface", "required": true}, {"type": "string", "name": "cap-color", "required":
+  true}, {"type": "string", "name": "bruises", "required": true}, {"type": "string",
+  "name": "odor", "required": true}, {"type": "string", "name": "gill-attachment",
+  "required": true}, {"type": "string", "name": "gill-spacing", "required": true},
+  {"type": "string", "name": "gill-size", "required": true}, {"type": "string", "name":
+  "gill-color", "required": true}, {"type": "string", "name": "stalk-shape", "required":
+  true}, {"type": "string", "name": "stalk-root", "required": true}, {"type": "string",
+  "name": "stalk-surface-above-ring", "required": true}, {"type": "string", "name":
+  "stalk-surface-below-ring", "required": true}, {"type": "string", "name": "stalk-color-above-ring",
+  "required": true}, {"type": "string", "name": "stalk-color-below-ring", "required":
+  true}, {"type": "string", "name": "veil-type", "required": true}, {"type": "string",
+  "name": "veil-color", "required": true}, {"type": "string", "name": "ring-number",
+  "required": true}, {"type": "string", "name": "ring-type", "required": true}, {"type":
+  "string", "name": "spore-print-color", "required": true}, {"type": "string", "name":
+  "population", "required": true}, {"type": "string", "name": "habitat", "required":
+  true}]}'
+source: '{"tags": {"mlflow.user": "M.Srikanth Reddy", "mlflow.source.name": "notebooks\\experiment-2.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "bcbd4058273f25245ab22ce38d38c89da7a0242b"}}'
+source_type: code

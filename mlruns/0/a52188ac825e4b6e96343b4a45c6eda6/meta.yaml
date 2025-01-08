@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/M.Srikanth%20Reddy/latest_mushroom_prediction/mlruns/0/a52188ac825e4b6e96343b4a45c6eda6/artifacts
+end_time: 1736223618209
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a52188ac825e4b6e96343b4a45c6eda6
+run_name: Combination 66
+run_uuid: a52188ac825e4b6e96343b4a45c6eda6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736223618146
+status: 3
+tags: []
+user_id: M.Srikanth Reddy

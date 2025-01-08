@@ -1,0 +1,43 @@
+stages:
+  data_collection:
+    cmd: python src/data/data_collection.py
+    deps:
+    - src/data/data_collection.py
+    params:
+    - data_collection.test_size
+    outs:
+    - data/raw
+  preprocessing:
+    cmd: python src/data/data_preprocessing.py
+    deps:
+    - data/raw
+    - src/data/data_preprocessing.py
+    outs:
+    - data/processed
+  model_training:
+    cmd: python src/model/model_training.py
+    deps:
+    - data/processed
+    - src/model/model_training.py
+    params:
+    - model_training.criterion
+    - model_training.max_depth
+    - model_training.min_samples_leaf
+    - model_training.min_samples_split
+    outs:
+    - models/model.pkl
+  model_evaluation:  # Fixed typo from model_evalution to model_evaluation
+    cmd: python src/model/model_evalution.py
+    deps:
+    - models/model.pkl
+    - src/model/model_evalution.py
+    metrics:
+    - reports/metrics.json
+    outs:
+    - reports/run_info.json 
+
+  model_registration:
+    cmd: python src/model/model_reg.py
+    deps:
+    - reports/run_info.json
+    - src/model/model_reg.py
